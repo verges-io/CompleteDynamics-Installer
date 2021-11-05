@@ -9,7 +9,7 @@ if [[ -z "${1}" ]]; then
         echo "You need to provide a URL to the compressed TAR file (*.tgz) of latest release of Complete Dynamics for Linux."
         echo "https://www.completedynamics.com"
         echo "
-USAGE: sudo ./CompleteDynamics.sh https://downloads.completedynamics.com/CompleteDynamics..."
+USAGE: sudo ./CompleteDynamics.sh https://downloads.completedynamics.com/CompleteDynamics*xyz*.tgz"
         exit 2
 fi
 
